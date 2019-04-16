@@ -7,15 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C28A8A78226673430078FD1D /* fishermansWharfStereo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C28A8A77226673420078FD1D /* fishermansWharfStereo.mp3 */; };
 		C2CCAE1F226600B1008BDAEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCAE1E226600B1008BDAEB /* AppDelegate.swift */; };
 		C2CCAE21226600B1008BDAEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CCAE20226600B1008BDAEB /* ViewController.swift */; };
 		C2CCAE24226600B1008BDAEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CCAE22226600B1008BDAEB /* Main.storyboard */; };
 		C2CCAE26226600B3008BDAEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CCAE25226600B3008BDAEB /* Assets.xcassets */; };
 		C2CCAE29226600B3008BDAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CCAE27226600B3008BDAEB /* LaunchScreen.storyboard */; };
-		C2CCAE3122665502008BDAEB /* fishermansWharf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CCAE3022665502008BDAEB /* fishermansWharf.mp3 */; };
+		C2CCAE35226671E7008BDAEB /* fishermansWharf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2CCAE34226671E7008BDAEB /* fishermansWharf.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C28A8A77226673420078FD1D /* fishermansWharfStereo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fishermansWharfStereo.mp3; sourceTree = "<group>"; };
 		C2CCAE1B226600B1008BDAEB /* SpatialAudioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpatialAudioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2CCAE1E226600B1008BDAEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2CCAE20226600B1008BDAEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +25,7 @@
 		C2CCAE25226600B3008BDAEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2CCAE28226600B3008BDAEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2CCAE2A226600B3008BDAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2CCAE3022665502008BDAEB /* fishermansWharf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fishermansWharf.mp3; sourceTree = "<group>"; };
+		C2CCAE34226671E7008BDAEB /* fishermansWharf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fishermansWharf.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +58,8 @@
 		C2CCAE1D226600B1008BDAEB /* SpatialAudioDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C2CCAE3022665502008BDAEB /* fishermansWharf.mp3 */,
+				C28A8A77226673420078FD1D /* fishermansWharfStereo.mp3 */,
+				C2CCAE34226671E7008BDAEB /* fishermansWharf.mp3 */,
 				C2CCAE1E226600B1008BDAEB /* AppDelegate.swift */,
 				C2CCAE20226600B1008BDAEB /* ViewController.swift */,
 				C2CCAE22226600B1008BDAEB /* Main.storyboard */,
@@ -126,8 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2CCAE29226600B3008BDAEB /* LaunchScreen.storyboard in Resources */,
-				C2CCAE3122665502008BDAEB /* fishermansWharf.mp3 in Resources */,
+				C2CCAE35226671E7008BDAEB /* fishermansWharf.mp3 in Resources */,
 				C2CCAE26226600B3008BDAEB /* Assets.xcassets in Resources */,
+				C28A8A78226673430078FD1D /* fishermansWharfStereo.mp3 in Resources */,
 				C2CCAE24226600B1008BDAEB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
